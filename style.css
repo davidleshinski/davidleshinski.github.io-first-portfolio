@@ -364,6 +364,12 @@ header span:active {
   top: 15px;
 }
 
+.contactinfo_div {
+  height: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
 .fas fa-envelope {
   display: inline-block;
 }
@@ -381,8 +387,6 @@ header span:active {
   color: white;
   font-size: 40px;
   margin-left: 40px;
-  margin-top: 70px;
-  margin-bottom: 70px;
   width: 50%;
   height: 100px;
 }
