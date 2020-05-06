@@ -90,12 +90,13 @@ header h1 {
   margin: auto;
   top: 250px;
   position: relative;
-  border-top: solid;
+  border-bottom: solid;
+  width: 660px;
 }
 
 header h2 {
   position: relative;
-  font-size: 60px;
+  font-size: 50px;
   top: 250px;
   margin: auto;
 }
