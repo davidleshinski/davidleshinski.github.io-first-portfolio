@@ -375,20 +375,14 @@ footer section{
   top: 25px;
 }
 
-.contactinfo {
-  list-style-type: none; 
-}
-
-.contactinfo li {
-  display: inline-block;
-}
-
 .fas fa-envelope {
   color: white;
   font-size: 12px; 
+  display: inline-block;
 }
 
 .fab fa-linkedin {
   color: white;
   font-size: 12px;
+  display: inline-block;
 }
