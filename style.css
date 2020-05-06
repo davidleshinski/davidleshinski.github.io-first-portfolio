@@ -392,3 +392,9 @@ header span:active {
 .contactinfo:hover {
  color: #4db6ac;  
 }
+
+.creator {
+  color: white;
+  font-size: 12px;
+  float: right;
+}
