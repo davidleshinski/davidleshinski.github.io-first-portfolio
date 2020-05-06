@@ -198,9 +198,7 @@ header span:active {
  
   @media screen and (max-width: 545px) {
    .about p {
-     display: block;
-     position: relative;
-     top: 30px;
+     display: block;   
  }
   } 
   
