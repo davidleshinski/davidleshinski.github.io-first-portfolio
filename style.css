@@ -376,13 +376,7 @@ header span:active {
   display: inline-block; 
 }
 
-.mail, .linkedin, {
-  text-decoration: none;
-  color: white;
-   font-size: 30px;
-}
-
-.instagram {
+.contactinfo {
   text-decoration: none;
   color: white;
    font-size: 30px;
