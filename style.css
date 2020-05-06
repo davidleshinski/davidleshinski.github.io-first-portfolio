@@ -90,15 +90,14 @@ header h1 {
   margin: auto;
   top: 250px;
   position: relative;
+  border-top: solid;
 }
 
 header h2 {
   position: relative;
   font-size: 60px;
   top: 250px;
-  border-top: solid;
   margin: auto;
-  width: 630px;
 }
   
   @media screen and (max-width: 750px) {
