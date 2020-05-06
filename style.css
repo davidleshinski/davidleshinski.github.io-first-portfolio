@@ -382,3 +382,13 @@ footer section{
 .contactinfo li {
   display: inline-block;
 }
+
+.far fa-envelope {
+  color: white;
+  font-size: 12px; 
+}
+
+.fab fa-linkedin {
+  color: white;
+  font-size: 12px;
+}
