@@ -365,7 +365,6 @@ header span:active {
 }
 
 .contactinfo_div {
-  height: 100px;
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -388,7 +387,6 @@ header span:active {
   font-size: 40px;
   margin-left: 40px;
   width: 50%;
-  height: 100px;
 }
 
 .contactinfo:hover {
