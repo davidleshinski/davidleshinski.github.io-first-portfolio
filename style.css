@@ -379,12 +379,12 @@ header span:active {
 .contactinfo {
   text-decoration: none;
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   margin-left: 40px;
-  margin-right: 40px;
   margin-top: 70px;
   margin-bottom: 70px;
   width: 50%;
+  height: 100px;
 }
 
 .contactinfo:hover {
