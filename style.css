@@ -365,24 +365,25 @@ header span:active {
 }
 
 .fas fa-envelope {
-  color: white;
-  font-size: 12px; 
   display: inline-block;
 }
 
 .fab fa-linkedin {
-  color: white;
-  font-size: 12px;
   display: inline-block; 
 }
 
 .fab fa-instagram {
-  color: white;
-  font-size: 12px;
   display: inline-block; 
 }
 
-.mail, .linkedin, .instagram {
+.mail, .linkedin, {
   text-decoration: none;
   color: white;
+   font-size: 30px;
+}
+
+.instagram {
+  text-decoration: none;
+  color: white;
+   font-size: 30px;
 }
