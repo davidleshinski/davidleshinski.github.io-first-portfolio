@@ -373,10 +373,16 @@ header span:active {
 .fab fa-linkedin {
   color: white;
   font-size: 12px;
-  display: inline-block;
+  display: inline-block; 
 }
 
-.mail, .linkedin {
+.fab fa-instagram {
+  color: white;
+  font-size: 12px;
+  display: inline-block; 
+}
+
+.mail, .linkedin, .instagram {
   text-decoration: none;
   color: white;
 }
