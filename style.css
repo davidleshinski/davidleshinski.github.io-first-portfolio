@@ -98,7 +98,7 @@ header h2 {
   top: 250px;
   border-top: solid;
   margin: auto;
-  width: 570px;
+  width: 600px;
 }
   
   @media screen and (max-width: 750px) {
@@ -126,7 +126,7 @@ header h2 {
 header span {
   position: relative;
   top: 380px;
-  border: 2px solid white;
+  border: 5px solid white;
   padding: 2px;
   font-size: 30px; 
 }
@@ -134,6 +134,7 @@ header span {
 @media screen and (max-width: 470px) {
   header span {
     font-size: 20px;
+     border: 2px solid white;
 }
  } 
 
@@ -142,9 +143,8 @@ header span a {
   text-decoration: none;
 }
 
-header span:active {
-  margin-top: 2px;
-  
+header span:hover {
+  background: #4db6ac;
 }
 
 .abouth1div {
