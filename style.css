@@ -179,7 +179,7 @@ header span:active {
 
 @media screen and (max-width: 545px) {
   .about {
-  height: 600px;
+  height: 800px;
 }
  }
 
@@ -204,7 +204,6 @@ header span:active {
   @media screen and (max-width: 545px) {
    .about p {
      display: block;
-     padding: ; 
  }
   } 
   
