@@ -82,6 +82,10 @@ header {
   background-position: center;
 }
 
+@media screen and (max-width: 470px) {
+   header {
+     height: 1000px;
+
 header h1 {
   font-size: 90px;
   margin: auto;
