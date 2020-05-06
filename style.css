@@ -35,9 +35,6 @@ nav li {
   float: left;
   text-align: center;
 }
-nav li:active {
-  background-color: darkgrey; 
-}
 
 nav li a {
   color: white;
@@ -189,7 +186,7 @@ header span:active {
  
 .about p {
    margin-left: 40px;
-   font-weight: bold;
+   font-size: 18px;
    line-height: 20px;
    margin-right: 20px;
    margin-bottom: 70px;
