@@ -79,7 +79,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  background-position: center;
+  background-position: center top;
 }
 
 header h1 {
