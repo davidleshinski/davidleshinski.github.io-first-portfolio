@@ -393,3 +393,7 @@ header span:active {
   color: white;
    font-size: 60px;
 }
+
+.contactinfo:hover {
+ color: #4db6ac;  
+}
