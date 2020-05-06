@@ -83,16 +83,16 @@ header {
 }
 
 header h1 {
-  font-size: 60px;
+  font-size: 90px;
   margin: auto;
-  top: 230px;
+  top: 250px;
   position: relative;
 }
 
 header h2 {
   position: relative;
-  font-size: 30px;
-  top: 230px;
+  font-size: 60px;
+  top: 250px;
   border-top: solid;
   margin: auto;
   width: 444px;
@@ -101,27 +101,42 @@ header h2 {
   @media screen and (max-width: 750px) {
     header h1 {
      width: 100%;
+     font-size: 60px;
 }
  }
  
+
+@media screen and (max-width: 750px) {
+    header h2 {
+      width: 100%; 
+ }
+  }
+
  @media screen and (max-width: 470px) {
     header h2 {
       width: 100%; 
+      font-size: 30px;
  }
   }
   
   
 header span {
   position: relative;
-  top: 360px;
+  top: 380px;
   border: 2px solid white;
   padding: 2px;
+  font-size: 40px; 
 }
+
+@media screen and (max-width: 470px) {
+  header span {
+    font-size: 20px;
+}
+ } 
 
 header span a {
   color: white;
   text-decoration: none;
-  font-size: 20px; 
 }
 
 header span:active {
