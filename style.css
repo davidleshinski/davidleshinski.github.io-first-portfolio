@@ -386,3 +386,8 @@ footer section{
   font-size: 12px;
   display: inline-block;
 }
+
+.mail, .linkedin {
+  text-decoration: none;
+  color: white;
+}
