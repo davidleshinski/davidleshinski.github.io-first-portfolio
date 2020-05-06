@@ -380,6 +380,10 @@ header span:active {
   display: inline-block; 
 }
 
+.fab fa-github {
+  display: inline-block;
+}
+
 .contactinfo {
   text-decoration: none;
   color: white;
