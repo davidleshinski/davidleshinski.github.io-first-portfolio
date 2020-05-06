@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+  body {
+  background: darkgrey;
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: midnightblue;
+  margin: 0;
+  margin-right: 5px;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  z-index: 10;
+  position: fixed;
+  box-shadow: 0 0 15px black;
+ 
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 20px;
+  badding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 700;
+  float: left;
+  text-align: center;
+}
+nav li:active {
+  background-color: darkgrey; 
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+   padding: 20px 10px;
+  
+}
+
+nav li:hover {
+  border-bottom: 3px solid white;
+  height: 27px;
+}
+
+
+@media screen and (max-width: 750px) {
+nav li { 
+  display: inline-block;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+ }
+}
+
+@media screen and (max-width: 410px) {
+nav li { 
+  display: inline-block;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 12px;
+}  
+ } 
+
+header {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i1.wp.com/www.lilistravelplans.com/wp-content/uploads/2016/02/new-york-1912582_1920-1000px.jpg?ssl=1");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+}
+
+header h1 {
+  font-size: 60px;
+  margin: auto;
+  top: 190px;
+  position: relative;
+}
+
+header h2 {
+  position: relative;
+  font-size: 30px;
+  top: 190px;
+  border-top: solid;
+  margin: auto;
+  width: 444px;
+}
+  
+  @media screen and (max-width: 750px) {
+    header h1 {
+     width: 100%;
+}
+ }
+ 
+ @media screen and (max-width: 470px) {
+    header h2 {
+      width: 100%; 
+ }
+  }
+  
+  
+header span {
+  position: relative;
+  top: 360px;
+  border: 2px solid white;
+  padding: 2px;
+}
+
+header span a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px; 
+}
+
+header span:active {
+  margin-top: 2px;
+  
+}
+
+.abouth1div {
+  width: 100%;
+  height: 100px;
+  background-color: midnightblue;
+  margin: 0;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  box-shadow: 0 0 15px black;
+}
+
+#abouth1 {
+  margin-top: 0;
+  position: absolute;
+  z-index: 3;
+  left: 40px;
+  top: 25px;
+ 
+}
+
+.about {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  height: 300px;
+}
+
+@media screen and (max-width: 545px) {
+  .about {
+  height: 600px;
+}
+ }
+
+.about img {
+   height: 300px;
+   width: 250px;
+   margin-bottom: 30px;
+   margin-right: 40px;
+   margin-left: 40px;
+   border: 2px solid white;
+   float: left;
+   box-shadow: 0 0 20px black;
+ }
+ 
+.about p {
+   margin-left: 40px;
+   font-weight: bold;
+   line-height: 20px;
+   margin-right: 20px;
+ }
+ 
+  @media screen and (max-width: 545px) {
+   .about p {
+     display: block;
+     padding: ; 
+ }
+  } 
+  
+  @media screen and (max-width: 545px) {
+   .about img {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+    border: none;
+    float: clear;
+    box-sizing: content-box;
+ }
+  }
+  
+   .skillsh1div {
+  width: 100%;
+  height: 100px;
+  background-color: midnightblue;
+  margin: 0;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  box-shadow: 0 0 15px black;
+}
+
+.skillsh1 {
+  margin-top: 0;
+  position: absolute;
+  left: 40px;
+  top: 25px;
+}
+
+.skills { 
+  background: grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background: darkgrey;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.skills div {
+  margin: auto;
+  text-align: center;
+  width: 200px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+  
+.skills div img {
+  width: 100px;
+  height: 100px;
+}
+
+.workh1div {
+  width: 100%;
+  height: 100px;
+  background-color: midnightblue;
+  margin: 0;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  box-shadow: 0 0 15px black;
+}
+
+#workh1 {
+  margin-top: 0;
+  position: absolute;
+  left: 40px;
+  top: 25px;
+}
+
+.workflex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.workflex div {
+  margin: 20px 20px;
+  position: relative;
+ 
+}
+
+.workflex img {
+  padding: 0;
+  margin: 0;
+  width: 430px;
+  height: 430px;
+  box-shadow: 0 0 20px black;
+}
+
+@media screen and (max-width: 500px) {
+ .workflex img {
+  width: 100%; 
+  height: 350px;
+  box-shadow: 0 0 20px black;
+}
+ }
+ 
+ 
+.worklink {
+  position: absolute;
+  top: 305px;
+  background: midnightblue;
+  color: #fff;
+  visibility: hidden;
+  
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 100px;  
+}
+  
+  @media screen and (max-width: 500px) {
+   .worklink {
+     position: absolute;
+     top: 225px;
+     background: midnightblue;
+     color: #fff;
+     visibility: hidden;
+     text-align: center;
+     padding-top: 10px;
+     padding-right: 10px;
+     padding-left: 10px;
+     height: 100px;
+   }
+ }
+ 
+.workflex a {
+  color: white;
+}
+
+.workflex div:hover .worklink {
+  visibility: visible;
+}
+
+.contacth1div {
+  width: 100%;
+  height: 100px;
+  background-color: midnightblue;
+  margin: 0;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  box-shadow: 0 0 15px black;
+}
+
+footer section{
+ width: 100%;
+ height: 100px;
+ margin-top: 70px;
+}
+
+.address_phone {
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+#contact {
+  margin-top: 0;
+  position: absolute;
+  z-index: 3;
+  left: 40px;
+  top: 25px;
+}
+
+.contactinfo {
+  list-style-type: none; 
+}
+
+.contactinfo li {
+  display: inline-block;
+}
+
+.contactinfo img {
+  width: 70px;
+  height: 70px;
+}
+
+#email {
+ width: 60px;
+ height: 60px;
+ position: relative;
+ bottom: 5px;
+}
+</style>
