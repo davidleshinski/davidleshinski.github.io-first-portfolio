@@ -174,12 +174,12 @@ header span:active {
   width: 100%;
   margin-top: 70px;
   margin-bottom: 70px;
-  height: 400px;
+
 }
 
 @media screen and (max-width: 545px) {
   .about {
-  height: 800px;
+  
 }
  }
 
@@ -199,6 +199,7 @@ header span:active {
    font-weight: bold;
    line-height: 20px;
    margin-right: 20px;
+   margin-bottom: 70px;
  }
  
   @media screen and (max-width: 545px) {
