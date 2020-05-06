@@ -79,7 +79,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  background-position: center top;
+  background-position: center;
 }
 
 header h1 {
@@ -95,7 +95,7 @@ header h2 {
   top: 250px;
   border-top: solid;
   margin: auto;
-  width: 444px;
+  width: 500px;
 }
   
   @media screen and (max-width: 750px) {
@@ -125,7 +125,7 @@ header span {
   top: 380px;
   border: 2px solid white;
   padding: 2px;
-  font-size: 40px; 
+  font-size: 30px; 
 }
 
 @media screen and (max-width: 470px) {
