@@ -75,7 +75,7 @@ header {
   margin: 0;
   padding: 0;
   background-image: url("https://i1.wp.com/www.lilistravelplans.com/wp-content/uploads/2016/02/new-york-1912582_1920-1000px.jpg?ssl=1");
-  height: 850px;
+  height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -85,14 +85,14 @@ header {
 header h1 {
   font-size: 60px;
   margin: auto;
-  top: 190px;
+  top: 230px;
   position: relative;
 }
 
 header h2 {
   position: relative;
   font-size: 30px;
-  top: 190px;
+  top: 230px;
   border-top: solid;
   margin: auto;
   width: 444px;
