@@ -193,7 +193,7 @@ header span:hover {
    text-decoration: none;
 }
  
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
    .about p {
     font-size: 16px;
      display: block;
@@ -206,7 +206,7 @@ header span:hover {
  }
   } 
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 600px) {
     .about img {
     display: block;
     padding: 0;
@@ -333,14 +333,14 @@ header span:hover {
 
 @media only screen and (max-width: 750px) {
   .workflex img {
-    height: 420px;
+    height: 460px;
     width: 100%;
   }
 }
  
 .media_kit_link {
   position: absolute;
-  top: 190px;
+  top: 140px;
   background: #4db6ac;
   color: #fff;
   visibility: hidden;
