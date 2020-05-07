@@ -209,8 +209,8 @@ header span:hover {
     .about img {
     display: block;
     padding: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 30px;
     height: 500px;
@@ -308,7 +308,7 @@ header span:hover {
 @media only screen and (max-width: 750px) {
   #media_kit {
    margin: auto;
-   width: 96%;
+   position: absolute;
    hieght: 350px;
   }   
 }
@@ -325,8 +325,8 @@ header span:hover {
 @media only screen and (max-width: 750px) {
   .workflex img {
     margin: auto;
-    width: 70%;
     height: 490px;
+    position: absolute;
   }
 }
  
