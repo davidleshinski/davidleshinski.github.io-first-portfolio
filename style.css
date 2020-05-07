@@ -172,8 +172,6 @@ header span:hover {
    height: 300px;
    width: 250px;
    margin-bottom: 30px;
-   margin-right: 40px;
-   margin-left: 40px;
    border: 2px solid white;
    float: left;
    box-shadow: 0 0 20px black;
@@ -209,8 +207,6 @@ header span:hover {
     .about img {
     display: block;
     padding: 0;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 0;
     margin-bottom: 30px;
     height: 500px;
@@ -218,7 +214,6 @@ header span:hover {
     box-shadow: 0 0 20px black;
     border: none;
     float: clear;
-    box-sizing: content-box;
  }
   }
   
@@ -314,7 +309,7 @@ header span:hover {
 
 @media only screen and (max-width: 750px) {
   #media_kit {
-   hieght: 320px;
+   hieght: 290px;
    width: 100%;
   }   
 }
@@ -330,7 +325,7 @@ header span:hover {
 
 @media only screen and (max-width: 750px) {
   .workflex img {
-    height: 430px;
+    height: 390px;
     width: 100%;
   }
 }
