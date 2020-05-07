@@ -79,12 +79,6 @@ header {
   background-position: center;
 }
 
-@media only screen and (max-width: 800px) {
-   header {
-     height: 1000px;
-}
- } 
-
 header h1 {
   font-size: 90px;
   margin: auto;
@@ -104,7 +98,7 @@ header h2 {
   @media only screen and (max-width: 750px) {
     header h1 {
      width: 100%;
-     font-size: 60px;
+     font-size: 50px;
 }
  }
  
@@ -112,6 +106,7 @@ header h2 {
 @media only screen and (max-width: 750px) {
     header h2 {
       width: 100%; 
+      font-size: 40px;
  }
   }
 
@@ -192,20 +187,20 @@ header span:hover {
    margin-bottom: 70px;
  }
  
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
    .about p {
     font-size: 16px;
+     display: block;
 }
  }
    
   @media only screen and (max-width: 545px) {
    .about p {
-     display: block;
      font-size: 14px;
  }
   } 
   
-  @media only screen and (max-width: 545px) {
+  @media only screen and (max-width: 750px) {
     .about img {
     display: block;
     padding: 0;
@@ -214,7 +209,7 @@ header span:hover {
     margin-top: 0;
     margin-bottom: 30px;
     height: 500px;
-    width: 100%;
+    width: 96%;
     box-shadow: 0 0 20px black;
     border: none;
     float: clear;
@@ -305,7 +300,7 @@ header span:hover {
   margin: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
   #media_kit {
    margin: auto;
    width: 96%;
@@ -322,7 +317,7 @@ header span:hover {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
   .workflex img {
     margin: auto;
     width: 70%;
