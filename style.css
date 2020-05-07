@@ -294,7 +294,14 @@ header span:hover {
 .workflex div {
   margin: 20px 20px;
   position: relative;
- 
+}
+
+#media_kit {
+  width: 490px;
+  height: 350px;
+  box-shadow: 0 0 20px black;
+  padding: 0;
+  margin: 0;
 }
 
 .workflex img {
@@ -313,14 +320,12 @@ header span:hover {
 }
  }
  
- 
 .worklink {
   position: absolute;
   top: 305px;
   background: #4db6ac;
   color: #fff;
   visibility: hidden;
-  
   text-align: center;
   padding-top: 10px;
   padding-right: 10px;
