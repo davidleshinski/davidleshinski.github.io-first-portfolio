@@ -79,9 +79,9 @@ header {
   background-position: center;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 800px) {
    header {
-     height: 1400px;
+     height: 1000px;
 }
  } 
 
@@ -186,22 +186,22 @@ header span:hover {
  
 .about p {
    margin-left: 40px;
-   font-size: 16px;
+   font-size: 18px;
    line-height: 20px;
    margin-right: 20px;
    margin-bottom: 70px;
  }
  
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 800px) {
    .about p {
-    font-size: 14px;
+    font-size: 16px;
 }
  }
    
   @media only screen and (max-width: 545px) {
    .about p {
      display: block;
-     font-size: 12px;
+     font-size: 14px;
  }
   } 
   
@@ -298,19 +298,36 @@ header span:hover {
 }
 
 #media_kit {
-  width: 490px;
-  height: 350px;
+  width: 500px;
+  height: 430px;
   box-shadow: 0 0 20px black;
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  #media_kit {
+   margin: auto;
+   width: 100%;
+   hieght: 430px;
+  }   
 }
 
 .workflex img {
   padding: 0;
   margin: 0;
   width: 430px;
-  height: 490px;
+  height: 500px;
   box-shadow: 0 0 20px black;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .workflex img {
+    margin: auto;
+    width: 430px;
+    height: 490px;
+  }
 }
  
 .media_kit_link {
