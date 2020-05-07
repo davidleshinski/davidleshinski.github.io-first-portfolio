@@ -297,6 +297,14 @@ header span:hover {
   position: relative;
 }
 
+@media only screen and (max-width: 750px) {
+  .workflex div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
 #media_kit {
   width: 510px;
   height: 430px;
@@ -307,7 +315,6 @@ header span:hover {
 
 @media only screen and (max-width: 750px) {
   #media_kit {
-   margin: 0;
    hieght: 350px;
    width: 100%;
   }   
@@ -324,7 +331,6 @@ header span:hover {
 
 @media only screen and (max-width: 750px) {
   .workflex img {
-    margin: 0;
     height: 430px;
     width: 100%;
   }
