@@ -193,7 +193,7 @@ header span:hover {
    text-decoration: none;
 }
  
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
    .about p {
     font-size: 16px;
      display: block;
@@ -206,7 +206,7 @@ header span:hover {
  }
   } 
   
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 700px) {
     .about img {
     display: block;
     padding: 0;
@@ -217,7 +217,10 @@ header span:hover {
     height: 500px;
     width: 100%;
     box-shadow: 0 0 20px black;
-    border: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: none;
+    border-right: none;
     float: clear;
  }
   }
@@ -337,7 +340,7 @@ header span:hover {
  
 .media_kit_link {
   position: absolute;
-  top: 230px;
+  top: 190px;
   background: #4db6ac;
   color: #fff;
   visibility: hidden;
@@ -350,7 +353,7 @@ header span:hover {
 
 .worklink {
   position: absolute;
-  top: 305px;
+  top: 260px;
   background: #4db6ac;
   color: #fff;
   visibility: hidden;
