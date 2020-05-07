@@ -315,7 +315,7 @@ header span:hover {
   margin: 0;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
   #media_kit {
    height: 290px;
    width: 100%;
@@ -331,7 +331,7 @@ header span:hover {
 }
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
   .workflex img {
     height: 460px;
     width: 100%;
