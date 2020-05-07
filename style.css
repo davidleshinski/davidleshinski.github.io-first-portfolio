@@ -79,7 +79,7 @@ header {
   background-position: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
    header {
      height: 1400px;
 }
@@ -192,9 +192,9 @@ header span:hover {
    margin-bottom: 70px;
  }
  
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
    .about p {
-    font-size: 12px;
+    font-size: 14px;
 }
  }
    
