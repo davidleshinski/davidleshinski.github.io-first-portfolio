@@ -186,6 +186,11 @@ header span:hover {
    margin-right: 20px;
    margin-bottom: 70px;
  }
+
+.about a {
+   color: #4db6ac;
+   text-decoration: none;
+}
  
 @media only screen and (max-width: 750px) {
    .about p {
