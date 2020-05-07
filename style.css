@@ -79,7 +79,7 @@ header {
   background-position: center;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 750px) {
    header {
      height: 1000px;
 }
@@ -192,15 +192,20 @@ header span:hover {
    margin-bottom: 70px;
  }
  
+@media screen and (max-width: 750px) {
+   .about p {
+    font-size: 12px;
+}
+ }
+   
   @media screen and (max-width: 545px) {
    .about p {
      display: block;
-     font-size: 12px;
  }
   } 
   
   @media screen and (max-width: 545px) {
-   .about img {
+    .about img {
     display: block;
     padding: 0;
     margin-left: 0;
